@@ -33,7 +33,7 @@ class LifeThread(QtCore.QThread):
 class UISmaple(QtWidgets.QDialog):
     def __init__(self, parent=None):
         super(UISmaple, self).__init__(parent)
-        self.width, self.height = 400, 400
+        self.width, self.height = 240, 240
         self.px, self.py = int(self.width / 4), int(self.height / 4)
         self.state = np.zeros((self.width, self.height)).astype(np.uint8)
         img = QtGui.QImage(self.state * 255, self.width, self.height,
