@@ -1,4 +1,4 @@
-![demo]https://raw.githubusercontent.com/wiki/coolon97/Lifegame/images/sydnq-4o2lp.gif
+![demo](https://raw.githubusercontent.com/wiki/coolon97/Lifegame/images/sydnq-4o2lp.gif)
 
 # Lifegame
 LifeGame is a simple lives simulator 
