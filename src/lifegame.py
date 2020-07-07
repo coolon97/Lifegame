@@ -30,8 +30,7 @@ class Lifegame:
         return self.__state * 255
 
     def random(self):
-        _ = np.array(list(map(lambda x: int(x + 0.5),
-                              np.random.rand(self.WIDTH*self.HEIGHT)))).astype(np.uint8)
+        _ = (np.random.rand(self.WIDTH*self.HEIGHT) + 0.5).astype(np.uint8)
         _.shape = (self.WIDTH, self.HEIGHT)
         self.__state = _
 
